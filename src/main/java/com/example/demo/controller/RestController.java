@@ -8,7 +8,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @Tag(name = "Rest Controller", description = "This is a REST controller for handling API requests")
 public class RestController {
 	
-	@GetMapping("/api")
+	@GetMapping("/api/v1")
 	public String page() {
 		return "This is a REST controller for handling API requests";
 	}
